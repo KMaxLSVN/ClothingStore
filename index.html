@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cloth & Fashion</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rajdhani">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalized.css">
+    <link rel="stylesheet" href="css/flex.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/validation.js"></script>
+</head>
+<body>
+<!--Section 1-->
+    <div class="b-popup"></div>
+    <div class="body-top">
+        <div id="banner">
+            <img src="img/bg-baneficios.jpg" alt="banner">
+        </div>
+        <!-- Top slider -->
+        <div class="top-slider">
+            <div class="swiper-container wrap">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/slider-main.jpg" alt="First slide">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slider-main.jpg" alt="Second slide">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slider-main.jpg" alt="Third slide">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slider-main.jpg" alt="Third slide">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slider-main.jpg" alt="Third slide">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+<!--Section 2-->
+        <header class="dark">
+            <div id="menu">
+                <div class="wrap main_flex__nowrap flex__align-items_center flex__jcontent_between">
+                    <div id="menu-sandwich" onclick="triggerMenu(true, 'menu-popup')">
+                        <div class="sandwich-animation">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+                    <div class="menu-popup">
+                        <div class="dark menu-top main_flex__nowrap flex__align-items_center flex__jcontent_between">
+                            <div class="title">menu</div>
+                            <a class="cross" onclick="triggerMenu(false, 'menu-popup')">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 50 50" width="23px" height="23px">
+                                    <path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z "></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="menu-list">
+                            <div class="menu-search">
+                                <div class="menu-search-inner main_flex__nowrap">
+                                    <input type="text" id="search-input" placeholder="O QUE ESTÁ PROCURANDO?" maxlength="300">
+                                    <span class="dark main_flex flex__jcontent_center flex__align-items_center"><i class="fas fa-search"></i></span>
+                                </div>
+                            </div>
+                            <div class="item-list">
+                                <ul class="list">
+                                    <li>
+                                        <div class="item">
+                                            <div class="item-title">SOBRE</div>
+                                            <div class="item-icon"><i class="fas fa-plus"></i></div>
+                                        </div>
+                                        <div class="submenu">
+                                            <ul class="dark">
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB SOBRE</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB SOBRE</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB SOBRE</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB SOBRE</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item">
+                                            <div class="item-title">COLEÇÕES</div>
+                                            <div class="item-icon"><i class="fas fa-plus"></i></div>
+                                        </div>
+                                        <div class="submenu">
+                                            <ul class="dark">
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB COLEÇÕES</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB COLEÇÕES</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB COLEÇÕES</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB COLEÇÕES</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item">
+                                            <div class="item-title">CATEGORIA</div>
+                                            <div class="item-icon"><i class="fas fa-plus"></i></div>
+                                        </div>
+                                        <div class="submenu">
+                                            <ul class="dark">
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB CATEGORIA</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB CATEGORIA</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB CATEGORIA</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB CATEGORIA</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item">
+                                            <div class="item-title">LOOKS</div>
+                                            <div class="item-icon"><i class="fas fa-plus"></i></div>
+                                        </div>
+                                        <div class="submenu">
+                                            <ul class="dark">
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB LOOKS</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB LOOKS</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB LOOKS</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB LOOKS</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item">
+                                            <div class="item-title">CONTATO</div>
+                                            <div class="item-icon"><i class="fas fa-plus"></i></div>
+                                        </div>
+                                        <div class="submenu">
+                                            <ul class="dark">
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB CONTATO</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB CONTATO</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB CONTATO</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="item">
+                                                        <div class="item-title">SUB CONTATO</div>
+                                                        <div class="item-icon"><i class="fas fa-angle-right"></i></div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="menu-social">
+                            <section class="social">
+                                <ul class="main_flex__nowrap flex__align-items_center">
+                                    <li><a href="#">
+                                        <svg alt="Facebook" width="24px" height="24px" viewBox="0 0 24 24" fill="#fff"><path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"></pathd></svg>
+                                    </a></li>
+                                    <li><a href="#">
+                                        <svg alt="Twitter" width="24px" height="24px" viewBox="0 0 24 24" fill="#fff"><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"></path></svg>
+                                    </a></li>
+                                    <li><a href="#">
+                                        <svg alt="Instagram" width="24px" height="24px" viewBox="0 0 24 24" fill="#fff"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"></path></svg>
+                                    </a></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                    <div id="menu-logo">
+                       <span><a href="#">cloth & fashion</a></span>
+                    </div>
+                    <div id="log-cart" class="main_flex__nowrap">
+                      <div class="login">login</div>
+                      <div class="cart-icon" onclick="triggerMenu(true, 'cart')">
+                          <i class="fas fa-shopping-cart"></i>
+                          <div class="circle">88</div>
+                      </div>
+                   </div>
+                    <div class="cart">
+                        <section class="cart-top dark menu-top">
+                            <div class="cart-title">
+                                <span>menu carrinho</span>
+                            </div>
+                            <div class="cart-icon" onclick="triggerMenu(false, 'cart')">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </section>
+                        <section class="cart-list main_flex__nowrap flex__jcontent_between">
+                            <div class="cart-list-top">
+                                <div class="item-list">
+                                    <ul>
+                                        <li class="main_flex__nowrap">
+                                            <div class="card-product">
+                                                <img src="img/card_product.jpg" alt="product">
+                                            </div>
+                                            <div class="card-product-info">
+                                                <section class="card-name">
+                                                    <div class="main_flex__nowrap flex__jcontent_between flex__align-items_center">
+                                                        <div class="card-name-title">Nome do Produto</div>
+                                                        <div class="card-remove">
+                                                            <i class="fas fa-times"></i>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <section class="card-color"></section>
+                                                <section class="card-price">
+                                                    <div class="count">
+                                                        <div class="card-box">-</div>
+                                                        <div class="card-amount">88</div>
+                                                        <div class="card-box">+</div>
+                                                    </div>
+                                                    <div class="cost">R$88,88</div>
+                                                </section>
+                                            </div>
+                                        </li>
+                                        <li class="main_flex__nowrap">
+                                            <div class="card-product">
+                                                <img src="img/card_product.jpg" alt="product">
+                                            </div>
+                                            <div class="card-product-info">
+                                                <section class="card-name">
+                                                    <div class="main_flex__nowrap flex__jcontent_between flex__align-items_center">
+                                                        <div class="card-name-title">Nome do Produto</div>
+                                                        <div class="card-remove">
+                                                            <i class="fas fa-times"></i>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <section class="card-color"></section>
+                                                <section class="card-price">
+                                                    <div class="count">
+                                                        <div class="card-box">-</div>
+                                                        <div class="card-amount">88</div>
+                                                        <div class="card-box">+</div>
+                                                    </div>
+                                                    <div class="cost">R$88,88</div>
+                                                </section>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="cart-list-bottom">
+                                <div class="cart-total main_flex__nowrap flex__jcontent_between flex__align-items_center">
+                                    <div>
+                                        <span class="cart-total-title">total</span>
+                                    </div>
+                                    <div>
+                                        <span class="cart-total-cost">R$88,88</span>
+                                    </div>
+                                </div>
+                                <div class="cart-checkout main_flex__nowrap flex__jcontent_between flex__align-items_center">
+                                    <div class="cart-checkout-box">
+                                        <span class="cart-checkout-title">continuar comprando</span>
+                                    </div>
+                                    <div class="cart-checkout-box">
+                                        <button type="submit" class="checkout-btn dark">checkout</button>
+                                        <span class="checkout-arrow"><i class="fas fa-angle-right"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+<!--Section 3-->
+    <main class="main">
+        <div class="main-container wrap main_flex__nowrap flex__align-items_center flex__jcontent_center">
+            <section class="title-icon">
+                <span class="section-tittle">PRODUTOS EM DESTAQUE</span>
+            </section>
+            <!-- Product slider -->
+            <section class="product-slider">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="img/product_01.jpg" alt="the first model">
+                                <img src="img/product_03_back.jpg" alt="back view" class="img_hover">
+                                <img src="img/product_03_side.jpg" alt="back view" class="img_anim">
+                            </div>
+                            <div class="title">
+                                <p class="price crossed_out">R$88,88</p>
+                                <p class="price discount">R$78,88</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="img/product_02.jpg" alt="the second model">
+                                <img src="img/product_03_back.jpg" alt="back view" class="img_hover">
+                                <img src="img/product_03_side.jpg" alt="back view" class="img_anim">
+                            </div>
+                            <div class="title">
+                                <p class="price">R$88,88</p>
+                                <p class="price discount">2X R$44,44</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="img/product_03.jpg" alt="the third model">
+                                <img src="img/product_03_back.jpg" alt="back view" class="img_hover">
+                                <img src="img/product_03_side.jpg" alt="back view" class="img_anim">
+                            </div>
+                            <div class="title">
+                                <p class="price crossed_out">R$88,88</p>
+                                <p class="price discount">R$78,88</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="img/product_04.jpg" alt="the forth model">
+                                <img src="img/product_03_back.jpg" alt="back view" class="img_hover">
+                                <img src="img/product_03_side.jpg" alt="back view" class="img_anim">
+                            </div>
+                            <div class="title">
+                                <p class="price">R$88,88</p>
+                                <p class="price discount">2X R$44,44</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="img/product_05.jpg" alt="the fifth model">
+                                <img src="img/product_03_back.jpg" alt="back view" class="img_hover">
+                                <img src="img/product_03_side.jpg" alt="back view" class="img_anim">
+                            </div>
+                            <div class="title">
+                                <p class="price crossed_out">R$88,88</p>
+                                <p class="price discount">R$78,88</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div>
+                                <img src="img/product_06.jpg" alt="the sixth model">
+                                <img src="img/product_03_back.jpg" alt="back view" class="img_hover">
+                                <img src="img/product_03_side.jpg" alt="back view" class="img_anim">
+                            </div>
+                            <div class="title">
+                                <p class="price">R$88,88</p>
+                                <p class="price discount">2X R$44,44</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </section>
+
+            <section id="icon-divisor" class="title-icon">
+                <img src="img/iconDIVISORIA.png" alt="icon">
+            </section>
+            <section id="category_items" class="grid-container">
+                <div class="jacket">
+                    <a href="#">JAQUETAS</a>
+                    <div class="overlay"></div>
+                </div>
+                <div class="shorts">
+                    <a href="#">SHORTS</a>
+                    <div class="overlay"></div>
+                </div>
+                <div class="windcheater">
+                    <a href="#">CORTA-VENTO</a>
+                    <div class="overlay"></div>
+                </div>
+                <div class="shirts">
+                    <a href="#">CAMISAS</a>
+                    <div class="overlay"></div>
+                </div>
+                <div class="trousers">
+                    <a href="#">CALÇAS</a>
+                    <div class="overlay"></div>
+                </div>
+                <div class="t-shirt">
+                    <a href="#">CAMISETAS</a>
+                    <div class="overlay"></div>
+                </div>
+            </section>
+            <!--Section 4-->
+            <section class="instagram main_flex__nowrap flex__align-items_center flex__jcontent_center">
+                <div class="title-icon">
+                    <span class="section-tittle">GALERIA DO INSTAGRAM</span>
+                </div>
+                <div class="product-list main_flex__nowrap">
+                    <a href="#" class="product main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                        <div class="product_img">
+                            <img src="img/insta-01.jpg" alt="the first photo">
+                            <div class="overlay main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                                <img src="img/icon-LIKE.png" alt="like">
+                                <h3>742 likes</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="product main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                        <div class="product_img">
+                            <img src="img/insta-02.jpg" alt="the second photo">
+                            <div class="overlay main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                                <img src="img/icon-LIKE.png" alt="like">
+                                <h3>2.342 likes</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="product main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                        <div class="product_img">
+                            <img src="img/insta-03.jpg" alt="the third photo">
+                            <div class="overlay main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                                <img src="img/icon-LIKE.png" alt="like">
+                                <h3>1.323 likes</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="product main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                        <div class="product_img">
+                            <img src="img/insta-04.jpg" alt="the fourth photo">
+                            <div class="overlay main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                                <img src="img/icon-LIKE.png" alt="like">
+                                <h3>562 likes</h3>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="product main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                        <div class="product_img">
+                            <img src="img/insta-05.jpg" alt="the fifth photo">
+                            <div class="overlay main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                                <img src="img/icon-LIKE.png" alt="like">
+                                <h3>3.942 likes</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <!--Section 5-->
+            <section class="gallery main_flex__nowrap flex__align-items_center flex__jcontent_center">
+                <div class="title-icon">
+                    <span class="section-tittle">QUEM USA</span>
+                </div>
+                <div class="product-list main_flex__nowrap">
+                    <a href="#" class="product main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                        <div class="product_img">
+                            <img src="img/photo-01.jpg" alt="the first photo">
+                            <div class="overlay main_flex flex__jcontent_center flex__align-items_center">Margo Robbi</div>
+                        </div>
+                    </a>
+                    <a href="#" class="product main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                        <div class="product_img">
+                            <img src="img/photo-02.jpg" alt="the second photo">
+                            <div class="overlay main_flex flex__jcontent_center flex__align-items_center">David Guetta</div>
+                        </div>
+                    </a>
+                    <a href="#" class="product main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                        <div class="product_img">
+                            <img src="img/photo-03.jpg" alt="the third photo">
+                            <div class="overlay main_flex flex__jcontent_center flex__align-items_center">Emma Stone</div>
+                        </div>
+                    </a>
+                    <a href="#" class="product main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                        <div class="product_img">
+                            <img src="img/photo-04.jpg" alt="the fourth photo">
+                            <div class="overlay main_flex flex__jcontent_center flex__align-items_center">Will Smith</div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <!--Section 6-->
+            <section class="mailing">
+                <form class="form" action="javascript:void(0)">
+                    <div class="main_flex__nowrap flex__align-items_center flex__jcontent_between">
+                        <div class="form-title dark">NEWSLETTER</div>
+                        <input type="text" name="name" class="form-control" placeholder="NOME" required>
+                        <input type="text" name="email" class="form-control" placeholder="ENDEREÇO DE EMAIL" required>
+                        <button type="submit" class="form-btn">CADASTRAR</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+<!--Section 7-->
+    <footer class="footer dark">
+        <div class="wrap main_flex__nowrap flex__align-items_center flex__jcontent_between">
+            <section class="menu-bottom">
+                <ul class="main_flex__nowrap flex__align-items_center flex__jcontent_between">
+                    <li><a href="#">SOBRE</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                    <li><a href="#">TERMOS & CONDIÇÕES</a></li>
+                    <li><a href="#">POLÍTICA DE PRIVACIDADE</a></li>
+                </ul>
+            </section>
+            <section class="social">
+                <ul class="main_flex__nowrap flex__align-items_center">
+                    <li><a href="#">
+                        <svg alt="Facebook" width="24px" height="24px" viewBox="0 0 24 24" fill="#fff"><path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"></pathd></svg>
+                    </a></li>
+                    <li><a href="#">
+                        <svg alt="Twitter" width="24px" height="24px" viewBox="0 0 24 24" fill="#fff"><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"></path></svg>
+                    </a></li>
+                    <li><a href="#">
+                        <svg alt="Instagram" width="24px" height="24px" viewBox="0 0 24 24" fill="#fff"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"></path></svg>
+                    </a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="mobile-block">
+            <img src="img/enextgroup.png" alt="Mobile logo">
+        </div>
+    </footer>
+</body>
+</html>

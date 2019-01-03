@@ -1,0 +1,119 @@
+@media screen and (max-width: 800px) {
+  .wrap{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .top-slider, #menu, .main, .footer{
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  .product-slider .swiper-container{
+    .swiper-button-next{
+      background: url("../img/arrow-dark.png") no-repeat center;
+    }
+    .swiper-button-prev{
+      background: url("../img/arrow-dark.png") no-repeat center;
+    }
+  }
+
+  .product-slider .swiper-container .swiper-wrapper .swiper-slide .title .discount{
+    display: block;
+  }
+
+  .product-slider .swiper-container .swiper-wrapper .swiper-slide .title .crossed_out{
+    color: #929292;
+    text-decoration: line-through;
+  }
+
+  #menu .wrap #log-cart .cart-icon i{
+    font-size: 130%;
+  }
+
+}
+
+@media (max-device-width: 320px) and (orientation: portrait){
+  .section-tittle{
+    font-size: 100%;
+    &:before,
+    &:after{
+      background-size: 100%;
+      width: 48px;
+      height: 10px;
+    }
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next{
+    display: none;
+  }
+
+  .grid-container{
+    grid-template-rows: 215px 215px 165px 310px 290px 175px;
+    grid-template-areas: "j j j j j j j j j j j j"
+                          "o o o o o o o o o o o o"
+                          "w w w w w w w w w w w w"
+                          "i i i i i i i i i i i i"
+                          "r r r r r r r r r r r r"
+                          "t t t t t t t t t t t t";
+    &>div{
+      a{
+        font-size: 1.6em;
+      }
+    }
+  }
+
+  .instagram{
+    .product-list{
+      flex-flow: column nowrap;
+      .product:not(:last-child){
+        margin-right: 0;
+        padding-bottom: 5px;
+      }
+    }
+  }
+  .gallery{
+    .product-list{
+      flex-flow: column nowrap;
+      .product:not(:last-child){
+        margin-right: 0;
+        padding-bottom: 5px;
+      }
+    }
+  }
+
+  .mailing{
+    .form div{
+      flex-flow: column;
+      .form-title, .form-control, .form-btn{
+        margin: 0;
+        height: 40px;
+      }
+      .form-title, .form-btn{
+        width: 100%;
+      &:after{
+        display: none;
+      }
+      }
+    }
+  }
+
+  .footer{
+    background: #f1f1f1;
+    height: 48px;
+    &>.wrap {
+      display: none;
+    }
+    .mobile-block{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
