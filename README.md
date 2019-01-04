@@ -1,2 +1,3 @@
 # ClothingStore
-Layout Practice
+*Layout Practice*
+Look website [here](https://kmaxlsvn.github.io/ClothingStore/)
